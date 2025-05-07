@@ -1,7 +1,7 @@
-public class My3Class {
+public class My5Class {
     public static void main(String[] args) {
 
-       String day="Friday";
+        String day="Friday";
 
         switch (day) {
 
