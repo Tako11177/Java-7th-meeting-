@@ -1,19 +1,34 @@
 public class My1class {
     public static void main(String[] args) {
 
-        int age = 35;
-        boolean isStudent = true;
 
-        if (age >=18 || age <=30) {
-            System.out.println("ჯენზი");
-        } else {
-            System.out.println("სხვა");
 
+        int day=3;
+
+        switch (day) {
+
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            case 2:
+                System.out.println("tusday");
+                break;
+
+            case 3:
+                System.out.println("Wendsday");
+                break;
+
+            case 4:
+                System.out.println("Other");
+                break;
 
         }
 
+        // Wendsday
+        // 20 წთ
+
+
     }
 }
-//პასუხი
-// ჯენზი
-//   ||-ერთ ერთი პირობა უნდა სრულდებოდე
+
